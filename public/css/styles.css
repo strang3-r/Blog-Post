@@ -21,12 +21,19 @@ body{
   color: #1abc9c !important;
 }
 
+#myBtn
+{
+  color: blue;
+  border:none;
+  border-radius: 20%;
+}
+
 .footer-padding {
   padding-bottom: 60px;
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;

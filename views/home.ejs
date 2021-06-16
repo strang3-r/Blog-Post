@@ -10,9 +10,9 @@
     <h1><%=post.title%></h1>
     <p>
       <%=post.content.substring(0, 100) + "..."%>
-      <a href="/blogs/<%=post.title%>"><button class="btn btn-outline-dark btn-sm" type="button" name="button">Read More</button></a>
+      <a href="/blogs/<%=post._id%>"><button class="btn btn-outline-dark" id="myBtn" type="button" name="button">Read More</button></a>
     </p>
 
-  <%  }); %>
+  <%  }) %>
 
 <%- include('partials/footer'); -%>
